@@ -1,3 +1,10 @@
+skype: live:.cid.82e87a13aa16f08a
+
+gmail: brewmaster0806@gmail.com
+
+Can we discuss here?
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
