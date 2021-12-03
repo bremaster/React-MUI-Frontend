@@ -15,12 +15,12 @@ const pages = ['Smart Contract', 'White Paper'];
 const Header = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
+  const handleOpenNavMenu = (event) => {
+    setAnchorElNav(event.currentTarget);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
   };
 
   return (
