@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
@@ -7,7 +7,7 @@ import Stack from '@mui/material/Stack';
 
 export default function OurMission() {
   return (
-    <Box sx={{mt: {md: '195px', sm: '150', xs: '30px'} }}>
+    <Box sx={{mt:{md: '195px', sm: '150px', xs: '30px'}}}>
       <Stack justifyContent="center" direction="horizontal">
         <Box
           component="img"

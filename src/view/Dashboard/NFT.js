@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
@@ -23,7 +23,7 @@ export default function NFT() {
       >
         Pssst.. before you wake it up, keep in mind that regardless of what type of purpose the hatchling has.. <br/> it will always have a place in its heart for it’s original owner. 
       </Typography>
-      <Stack justifyContent="center" alignItems="center">
+      <Stack justifyContent="center" alignItems="center" direction="column">
         <Box
           component="img"
           src="/assets/Design/HatchlingAsset .png"
