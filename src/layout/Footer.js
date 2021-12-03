@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 
 export default function Footer() {
   return (
-    <Box sx={{height: '116px'}}>
+    <Box sx={{height: {xs: '30px', md: '60px'}}}>
   	</Box>
   );
 }

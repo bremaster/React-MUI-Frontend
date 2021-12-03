@@ -17,7 +17,7 @@ export default function OurMission() {
         <Typography
           color="#FFCB44"
           variant="h1" component="h1"
-          sx={{mx: '20px', fontWeight: 800, fontSize: {md: '96px', sm: '48px', xs: '34px'} }}
+          sx={{mx: '20px', fontWeight: 800, fontSize: {md: '96px', sm: '48px', xs: '34px'}, fontFamily: 'grilled-cheese-toasted' }}
         >
           <span style={{color: '#FFF'}}>Our</span> Mission
         </Typography>
@@ -41,13 +41,13 @@ export default function OurMission() {
           <Stack>
             <Typography
               variant="h4" component="h4"
-              sx={{fontSize: {md: '34px', xs: '20px'} }}
+              sx={{fontSize: {md: '34px', xs: '20px'}, fontFamily: 'grilled-cheese-toasted' }}
             >
               Ambeelance
             </Typography>
 
             <Typography
-              sx={{fontSize: {md: '15px', xs: '10px'}, mt: {md: '76px', xs: '20px'} }}
+              sx={{fontSize: {md: '15px', xs: '10px'}, mt: {md: '76px', xs: '20px'}, fontFamily: 'somatic-rounded' }}
             >
               They will purposefully focus on building a better environment for the ones whom are affected by the change of climate and people's way of living. Why don't you scroll down a bit more and see what plans they got in-store ?
             </Typography>
@@ -57,13 +57,13 @@ export default function OurMission() {
           <Stack>
             <Typography
               variant="h4" component="h4"
-              sx={{fontSize: {md: '34px', xs: '20px'} }}
+              sx={{fontSize: {md: '34px', xs: '20px'}, fontFamily: 'grilled-cheese-toasted' }}
             >
               Education Center
             </Typography>
 
             <Typography
-              sx={{fontSize: {md: '15px', xs: '10px'}, mt: {md: '76px', xs: '20px'} }}
+              sx={{fontSize: {md: '15px', xs: '10px'}, mt: {md: '76px', xs: '20px'}, fontFamily: 'somatic-rounded' }}
             >
               They will purposefully focus on building a better environment for the ones whom are affected by the change of climate and people's way of living. Why don't you scroll down a bit more and see what plans they got in-store ? 
             </Typography>
@@ -73,13 +73,13 @@ export default function OurMission() {
           <Stack>
             <Typography
               variant="h4" component="h4"
-              sx={{fontSize: {md: '34px', xs: '20px'} }}
+              sx={{fontSize: {md: '34px', xs: '20px'}, fontFamily: 'grilled-cheese-toasted' }}
             >
               Testing Grounds
             </Typography>
 
             <Typography
-              sx={{fontSize: {md: '15px', xs: '10px'}, mt: {md: '76px', xs: '20px'} }}
+              sx={{fontSize: {md: '15px', xs: '10px'}, mt: {md: '76px', xs: '20px'}, fontFamily: 'somatic-rounded' }}
             >
               They will purposefully focus on building a better environment for the ones whom are affected by the change of climate and people's way of living. Why don't you scroll down a bit more and see what plans they got in-store ?
             </Typography>
@@ -89,13 +89,13 @@ export default function OurMission() {
           <Stack>
             <Typography
               variant="h4" component="h4"
-              sx={{fontSize: {md: '34px', xs: '20px'} }}
+              sx={{fontSize: {md: '34px', xs: '20px'}, fontFamily: 'grilled-cheese-toasted' }}
             >
               Purification
             </Typography>
 
             <Typography
-              sx={{fontSize: {md: '15px', xs: '10px'}, mt: {md: '76px', xs: '20px'} }}
+              sx={{fontSize: {md: '15px', xs: '10px'}, mt: {md: '76px', xs: '20px'}, fontFamily: 'somatic-rounded' }}
             >
               They will purposefully focus on building a better environment for the ones whom are affected by the change of climate and people's way of living. Why don't you scroll down a bit more and see what plans they got in-store ?
             </Typography>

@@ -20,13 +20,13 @@ export default function Beethecure() {
               <Stack>
                 <Typography
                   variant="h3" component="h3"
-                  sx={{ fontWeight: 800, fontSize: {xl: '40px', md: '30px', xs: '25px'}, zIndex: 30 }}
+                  sx={{ fontWeight: 800, fontSize: {xl: '40px', md: '30px', xs: '25px'}, zIndex: 30, fontFamily: 'grilled-cheese-toasted' }}
                 >
                   Beethecure
                 </Typography>
                 <Typography
                   variant="h6" component="h6"
-                  sx={{ fontSize: {md: '20px', xs: '16px'}, zIndex: 30 }}
+                  sx={{ fontSize: {md: '20px', xs: '16px'}, zIndex: 30, fontFamily: 'somatic-rounded' }}
                 >
                   https://beethecure.com.au
                 </Typography>
@@ -35,13 +35,13 @@ export default function Beethecure() {
 
             <Typography
               variant="h6" component="h6"
-              sx={{ mt: 5, fontSize: {md: '20px', xs: '16px'} }}
+              sx={{ mt: 5, fontSize: {md: '20px', xs: '16px'}, fontFamily: 'grilled-cheese-toasted' }}
             >
               The Problem Why are Global Bee Populations in Trouble?
             </Typography>
 
             <Typography
-              sx={{fontSize: {md: '15px', xs: '12px'}, mt: 3}}
+              sx={{fontSize: {md: '15px', xs: '12px'}, mt: 3, fontFamily: 'somatic-rounded'}}
             >
               The state of beekeeping around the world is in calamity and close to a state of disaster. Colony collapse disorder* and Varroa mite** have hit every continent in the world except for Australia. We are in a privileged position here and if anything, we ought have more stringent laws in terms of insecticide use and the transportation of bees and importation of honey and pollen. Australia is a major exporter of bees and by keeping our population healthy we have the potential to re-populate the world’s bees. <br/><br/>
 
@@ -65,14 +65,14 @@ export default function Beethecure() {
             <Stack>
               <Typography
                 variant="h3" component="h3"
-                sx={{ fontWeight: 800, fontSize: {xl: '40px', md: '30px', xs: '25px'}, height: '126px', zIndex: 30}}
+                sx={{ fontWeight: 800, fontSize: {xl: '40px', md: '30px', xs: '25px'}, height: '126px', zIndex: 30, fontFamily: 'grilled-cheese-toasted'}}
                 color="#23212C"
               >
                 How are your donations helping our cause?
               </Typography>
 
               <Typography
-                sx={{fontSize: {md: '15px', xs: '12px'}, mt: {md: 5, xs: 0}, zIndex: 30}}
+                sx={{fontSize: {md: '15px', xs: '12px'}, mt: {md: 5, xs: 0}, zIndex: 30, fontFamily: 'somatic-rounded'}}
               >
                 Unlike other non for profits and charities where administration costs and salaries are high, costs are kept at a minimum because the bee loving community contributes to the cause passionately. Simon Mulvany, the founder of Save The Bees Australia, lives frugally in Blairgowrie on the Mornington Peninsula with his 9-year-old son.<br/><br/>
 
@@ -88,7 +88,7 @@ export default function Beethecure() {
             component="img"
             src="/assets/Design/HoneyDrip_Right.png"
             position="absolute"
-            sx={{right: '10px', top: '-20px'}}
+            sx={{right: '10px', top: {sm: '-20px', xs: '-15px'}, maxWidth: '130px', width: '20%'}}
           />
         </Box>
       </Grid>

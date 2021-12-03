@@ -38,7 +38,7 @@ const Header = () => {
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 'auto', mx: 2, color: '#F8F5EF', display: 'block', borderBottom: '2px solid #F8F5EF', borderRadius: 0  }}
+                sx={{ my: 'auto', mx: 2, color: '#F8F5EF', display: 'block', borderBottom: '2px solid #F8F5EF', borderRadius: 0, '& p': {fontFamily: 'somatic-rounded'} }}
               >
               	<Typography textAlign="center">{page}</Typography>
               </Button>
