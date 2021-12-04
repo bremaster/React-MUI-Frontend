@@ -11,7 +11,7 @@ export default function RoadMap() {
       <Typography
         color="#FFCB44"
         variant="h1" component="h1"
-        sx={{mx: '20px', fontWeight: 800, mb: {md: '195px', sm: '100px', xs: '50px'}, fontSize: {xl: '96px', md: '72px', sm: '50px', xs: '34px'}, fontFamily: 'grilled-cheese-toasted' }}
+        sx={{mx: '20px', mb: {md: '195px', sm: '100px', xs: '50px'}, fontSize: {xl: '96px', md: '72px', sm: '50px', xs: '34px'}, fontFamily: 'grilled-cheese-toasted' }}
         textAlign="center"
       >
         <span style={{color: '#FFF'}}>Project </span>Roadmap

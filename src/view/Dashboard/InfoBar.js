@@ -19,7 +19,7 @@ export default function Banner() {
             </Typography>
 
             <Typography
-              sx={{fontSize: {md: '15px', xs: '10px'}, px: {xs: 6, md: 2}, fontFamily: 'somatic-rounded', minHeight: '50px' }}
+              sx={{fontSize: {md: '15px', xs: '10px'}, px: {xs: 6, md: 2}, fontFamily: 'somatic-rounded' }}
             >
               Over 5000 attributes run trough the genes in this Hive, resulting in a spectrum of unique characteristics with each Bee
             </Typography>
@@ -37,7 +37,7 @@ export default function Banner() {
             </Typography>
 
             <Typography
-              sx={{fontSize: {md: '15px', xs: '10px'}, px: {xs: 6, md: 2}, fontFamily: 'somatic-rounded', minHeight: '50px' }}
+              sx={{fontSize: {md: '15px', xs: '10px'}, px: {xs: 6, md: 2}, fontFamily: 'somatic-rounded' }}
             >
               Our collaboration with BeetheCure - Australia, will ensure that the funds raised from this project will be directly allocated towards improving the life quality of locally produced bees. 
             </Typography>
@@ -55,7 +55,7 @@ export default function Banner() {
             </Typography>
 
             <Typography
-              sx={{fontSize: {md: '15px', xs: '10px'}, px: {xs: 6, md: 2}, fontFamily: 'somatic-rounded', minHeight: '50px' }}
+              sx={{fontSize: {md: '15px', xs: '10px'}, px: {xs: 6, md: 2}, fontFamily: 'somatic-rounded' }}
             >
               With Generating an NFT, the original owner will retain 10% of each upcoming trade, forever .
             </Typography>

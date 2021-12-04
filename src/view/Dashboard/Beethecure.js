@@ -7,8 +7,8 @@ import Stack from '@mui/material/Stack';
 
 export default function Beethecure() {
   return (
-    <Grid container textAlign="left" spacing={{xl: 1, xs: 0}} sx={{mt: {md: '195px', sm: '100px', xs: '50px'}, px: 1}}>
-      <Grid item xs={12} md={6} sx={{px: 1}}>
+    <Grid container textAlign="left" spacing={{xl: 1, xs: 0}} sx={{mt: {md: '195px', sm: '100px', xs: '50px'}, px: {md: 1, xs: 0} }}>
+      <Grid item xs={12} md={6} sx={{px: {md: 1, xs: 0}}}>
         <Box backgroundColor="#C69730" position="relative" sx={{minHeight: {md: '950px', xs: '500px'}}} color="#FFF">
           <Box sx={{p: {xl: '135px', md: '100px 40px', xs: '50px 20px'} }}>
             <Stack direction="row">
@@ -20,7 +20,7 @@ export default function Beethecure() {
               <Stack>
                 <Typography
                   variant="h3" component="h3"
-                  sx={{ fontWeight: 800, fontSize: {xl: '40px', md: '30px', xs: '25px'}, zIndex: 30, fontFamily: 'grilled-cheese-toasted' }}
+                  sx={{ fontSize: {xl: '40px', md: '30px', xs: '25px'}, zIndex: 30, fontFamily: 'grilled-cheese-toasted' }}
                 >
                   Beethecure
                 </Typography>
@@ -59,13 +59,13 @@ export default function Beethecure() {
           </Box>
         </Box>
       </Grid>
-      <Grid item xs={12} md={6} sx={{px: 1}}>
+      <Grid item xs={12} md={6} sx={{px: {md: 1, xs: 0}}}>
         <Box backgroundColor="#FFCB44" position="relative" sx={{minHeight: {md: '950px', xs: '500px'}}} color="#23212C">
           <Box sx={{p: {xl: '135px', md: '100px 40px', xs: '50px 20px'} }}>
             <Stack>
               <Typography
                 variant="h3" component="h3"
-                sx={{ fontWeight: 800, fontSize: {xl: '40px', md: '30px', xs: '25px'}, height: '126px', zIndex: 30, fontFamily: 'grilled-cheese-toasted'}}
+                sx={{ fontSize: {xl: '40px', md: '30px', xs: '25px'}, height: '126px', zIndex: 30, fontFamily: 'grilled-cheese-toasted'}}
                 color="#23212C"
               >
                 How are your donations helping our cause?
