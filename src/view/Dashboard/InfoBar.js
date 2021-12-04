@@ -8,7 +8,7 @@ import Stack from '@mui/material/Stack';
 export default function Banner() {
   return (
   	<Grid container sx={{minHeight: '163px', mt: {md: 2, xs: 5}}} textAlign={{md: "center", xs: "left"}}>
-		  <Grid item xs={12} md={4} backgroundColor='#FFCB44' sx={{borderRight: {md: '1px solid black', xs: 0}, py: {xs: 1, md: 3}, mt: '1px' }}>
+		  <Grid item xs={12} md={4} backgroundColor='#FFCB44' sx={{borderRight: {md: '1px solid black', xs: 0}, py: {xs: '18px', md: 3}, mt: '1px' }}>
         <Box display="inline-flex" sx={{height: '100%'}}>
           <Stack>
             <Typography
@@ -26,7 +26,7 @@ export default function Banner() {
           </Stack>
         </Box>
 		  </Grid>
-		  <Grid item xs={12} md={4} backgroundColor='#FFCB44' sx={{borderRight: {md: '1px solid black', xs: 0}, py: {xs: 1, md: 3}, mt: '1px' }}>
+		  <Grid item xs={12} md={4} backgroundColor='#FFCB44' sx={{borderRight: {md: '1px solid black', xs: 0}, py: {xs: '18px', md: 3}, mt: '1px' }}>
         <Box display="inline-flex" sx={{height: '100%'}}>
   		    <Stack>
             <Typography
@@ -44,7 +44,7 @@ export default function Banner() {
           </Stack>
         </Box>
 		  </Grid>
-      <Grid item xs={12} md={4} backgroundColor='#FFCB44' sx={{py: {xs: 1, md: 3}, mt: '1px' }}>
+      <Grid item xs={12} md={4} backgroundColor='#FFCB44' sx={{py: {xs: '18px', md: 3}, mt: '1px' }}>
         <Box display="inline-flex" sx={{height: '100%'}}>
           <Stack>
             <Typography
