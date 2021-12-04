@@ -41,7 +41,7 @@ export default function Beethecure() {
             </Typography>
 
             <Typography
-              sx={{fontSize: {md: '15px', xs: '12px'}, mt: 3, fontFamily: 'somatic-rounded'}}
+              sx={{fontSize: {md: '15px', xs: '12px'}, mt: 3, fontFamily: 'somatic-rounded', textAlign: 'justify'}}
             >
               The state of beekeeping around the world is in calamity and close to a state of disaster. Colony collapse disorder* and Varroa mite** have hit every continent in the world except for Australia. We are in a privileged position here and if anything, we ought have more stringent laws in terms of insecticide use and the transportation of bees and importation of honey and pollen. Australia is a major exporter of bees and by keeping our population healthy we have the potential to re-populate the world’s bees. <br/><br/>
 
@@ -72,7 +72,7 @@ export default function Beethecure() {
               </Typography>
 
               <Typography
-                sx={{fontSize: {md: '15px', xs: '12px'}, mt: {md: 5, xs: 0}, zIndex: 30, fontFamily: 'somatic-rounded'}}
+                sx={{fontSize: {md: '15px', xs: '12px'}, mt: {md: 5, xs: 0}, zIndex: 30, fontFamily: 'somatic-rounded', textAlign: 'justify'}}
               >
                 Unlike other non for profits and charities where administration costs and salaries are high, costs are kept at a minimum because the bee loving community contributes to the cause passionately. Simon Mulvany, the founder of Save The Bees Australia, lives frugally in Blairgowrie on the Mornington Peninsula with his 9-year-old son.<br/><br/>
 

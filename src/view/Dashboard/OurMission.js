@@ -17,7 +17,7 @@ export default function OurMission() {
         <Typography
           color="#FFCB44"
           variant="h1" component="h1"
-          sx={{mx: '20px', fontWeight: 800, fontSize: {md: '96px', sm: '48px', xs: '34px'}, fontFamily: 'grilled-cheese-toasted' }}
+          sx={{mx: '20px', fontSize: {md: '96px', sm: '48px', xs: '34px'}, fontFamily: 'grilled-cheese-toasted' }}
         >
           <span style={{color: '#FFF'}}>Our</span> Mission
         </Typography>

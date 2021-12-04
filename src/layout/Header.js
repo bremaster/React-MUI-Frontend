@@ -30,7 +30,7 @@ const Header = () => {
           <Box
             component="img"
             src="/logo.png"
-            sx={{ mr: 2, width: '77px', py: '22px' }}
+            sx={{ mr: 2, width: {md: '77px', xs: '55px'}, py: '22px' }}
           />
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
@@ -47,12 +47,12 @@ const Header = () => {
 
           <Box sx={{display:{xs:'flex',md:'none'}}}>
             <IconButton
-              size="large"
               aria-label="account of current user"
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
               color="inherit"
+              sx={{'& svg': {fontSize: '40px'}}}
             >
               <MenuIcon />
             </IconButton>

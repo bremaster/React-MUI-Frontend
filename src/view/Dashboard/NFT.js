@@ -52,7 +52,7 @@ export default function NFT() {
           color="#9f7926"
           textAlign="center"
           backgroundColor="#dfbd7f"
-          sx={{mb: 2, px: {md: 10, sm: 7, xs: 3}, py: 1, fontSize: {md: '15px', sm: '12px', xs: '8px'}, borderRadius: 3, fontWeight: 600, fontFamily: 'somatic-rounded'}}
+          sx={{mb: 5, px: {md: 10, sm: 7, xs: 3}, py: 1, fontSize: {md: '15px', sm: '12px', xs: '8px'}, borderRadius: 3, fontWeight: 600, fontFamily: 'somatic-rounded'}}
         >
           If this buttons is unavailable, you first need to login with MetaMask and you are all set.<br/>MetaMask plug-in can be found at the menu bar
         </Typography>
